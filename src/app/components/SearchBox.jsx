@@ -1,6 +1,6 @@
 // In SearchBox.js or SearchBox.tsx
 import React, { useState } from 'react';
-import { useRouter, useSearchParams } from "next/navigation";
+import {useRouter, useSearchParams } from "next/navigation";
 import { BsFillMicFill } from 'react-icons/bs';
 import {RxCross2} from 'react-icons/rx';
 import {AiOutlineSearch} from 'react-icons/ai';

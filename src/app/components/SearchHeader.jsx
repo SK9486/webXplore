@@ -10,7 +10,8 @@ import SearchHeaderOptions from './SearchHeaderOptions';
 function SearchHeader() {
   
   return (
-    <header className="flex items-center justify-between p-4">
+    <div className="flex flex-col">
+      <header className="flex items-center justify-between p-4">
       <div className="flex-w-full p-6 items-center justify-between">
         <Link href={'/'}>
           <Image
@@ -29,8 +30,10 @@ function SearchHeader() {
         <TbGridDots className="header-icon"/>
       </div>
       <button className="bg-blue-500 text-white px-6 py-2 font-medium rounded-md hover:brightness-105 hover:shadow-md transition-all">Sign In</button>
-      <SearchHeaderOptions/>
     </header>
+    <SearchHeaderOptions/>
+    </div>
+    
   );
 };
 
