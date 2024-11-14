@@ -1,13 +1,12 @@
-import React from "react";
-import SearchHeader from "./../components/SearchHeader";  // Correct for default export
-;  // Make sure the path is correct
+import SearchHeader from "../components/SearchHeader";
 import "./../globals.css";
 
-export default function SearchLayout({ children }: { children: React.ReactNode }) {
+export default function SearchLayout({ children }) {
   return (
     <div>
       <SearchHeader />
       {children}
+      {/* Footer */}
     </div>
   );
 }
